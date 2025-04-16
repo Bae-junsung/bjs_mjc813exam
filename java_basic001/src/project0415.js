@@ -16,7 +16,7 @@ class question0415{
          }
        }
        let a = prompt("입력하세요");
-       a = Number(a); //입력값을 숫자로 변환
+       a = Number(a); //입력값을 숫자로 변환???
        const x = new Ride(a);
        x.pass();
     }
