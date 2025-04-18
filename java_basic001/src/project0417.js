@@ -61,7 +61,7 @@ let e = new Exam27();
 if (e.inputFunc()) {
     e.outputFunc();
 }
-*/
+
 //문자 출력
 class Exam28 {
     strInput = "";
@@ -121,3 +121,26 @@ class Exam37 {
 let exam37 = new Exam37(prompt("투표할 항목을 공백으로 구분해서 입력하세요."));
 let result = exam37.checkVotes();
 console.log(`투표 결과 ${result[0]}가 ${result[1]}표로 가장 많습니다.`);
+*/
+// 소수 구하기
+class Exam41 {
+    constructor(number = prompt("숫자를 입력하세요:")) {
+        this.number = Number(number);
+    }
+
+    num() {
+        if (this.number < 2) {
+            console.log("NO");
+            return;
+        }
+        for (let i = 2; i <= Math.sqrt(this.number); i++) {
+            if (this.number % i === 0) {
+                console.log("NO");
+                return;
+            }
+        }
+        console.log("YES");
+    }
+}
+const exam41 = new Exam41();
+exam41.num();
