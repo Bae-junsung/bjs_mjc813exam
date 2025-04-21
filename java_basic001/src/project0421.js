@@ -13,7 +13,7 @@ class Exam61 {
     else { //다르면
         result += this.str[i]; //??
         //if 부분만 참고함
-        if(count > 2) { //2이상일때만 증가
+        if(count > 1) { //1이상일때만 증가
             result += count;
         }
         count = 1;
