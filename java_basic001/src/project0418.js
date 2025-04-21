@@ -1,3 +1,4 @@
+/*
 // 소수 구하기
 class Exam41 {
     constructor(number = prompt("숫자를 입력하세요:")) {
@@ -38,3 +39,32 @@ class Exam042 {
 }
 let exam = new Exam042();
 exam.inputFunc();
+*/
+
+//천 단위로 콤마 찍기
+class Exam058 {
+    constructor(money = prompt("숫자를 입력하세요:")) {
+        this.money = Number(money);
+    }
+    cal() {
+        console.log(this.money.toLocaleString());
+    }
+}
+let exam58 = new Exam058;
+    exam58.cal();
+
+//빈칸 채우기
+class Exam059 {
+    constructor(blank = prompt("문자를 입력하세요:")) {
+        this.blank = blank;
+    }
+    sen(){
+    let width = 50;
+    let space = width - this.blank.length;
+    let left = Math.floor(space / 2); // Left space ??
+    let right = Math.ceil(space / 2); // Right space ??
+        console.log("=".repeat(left) + this.blank + "=".repeat(right));
+    }
+}
+let exam59 = new Exam059;
+exam59.sen();
