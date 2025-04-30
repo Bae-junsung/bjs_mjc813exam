@@ -2,10 +2,10 @@ package com.mjc.mjc813.cal;
 
 public class MyCalculator {
 
-    public int myAdd(int a, int b) {
+    int myAdd(int a, int b) {
         return a + b; //public 창 만들기??
     }
-    public long myAdd(long a, long b) {
+    long myAdd(long a, long b) {
         return a + b;
     }
 
