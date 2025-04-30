@@ -18,8 +18,8 @@ public class MyCalculator {
         int n1 = mCal.myAdd(a1, b1);
         System.out.println("두 수("+ a1 + "," + b1 + ")의 값은 " + n1 + " 입니다.");
 
-        long a2 = 10;
-        long b2 = 30;
+        long a2 = 123456789012345L;
+        long b2 = 98765432198765L;
         long n2 = mCal.myAdd(a2, b2);
         System.out.println("두 수("+ a2 + "," + b2 + ")의 값은 " + n2 + " 입니다.");
     }
