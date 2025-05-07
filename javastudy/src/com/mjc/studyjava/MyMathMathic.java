@@ -79,18 +79,18 @@ public class MyMathMathic {
         System.out.println("같은 수인지: " + math.same(10, 5));
         System.out.println("같은 문자열인지: " + math.same("hello", "hi"));
         System.out.println("다른 수인지: " + math.notsame(10, 5));
-        System.out.println("10이 5보다 큰가: " + math.big(10, 5));
-        System.out.println("5가 10보다 작은가: " + math.small(3, 10));
+        System.out.println("a가 b보다 큰가: " + math.big(10, 5));
+        System.out.println("a가 b보다 작은가: " + math.small(3, 10));
 
         // 기타 연산
         System.out.println("왼쪽 쉬프트: " + math.shiftLeft(2, 3));
         System.out.println("오른쪽 쉬프트: " + math.shiftRight(16, 3));
         System.out.println("0으로 채우는 오른쪽 쉬프트: " + math.shiftRight0(-16, (byte) 2)); //byte?
-        System.out.println("거듭제곱(2의 4승): " + math.square(2, (byte) 4)); //byte?
+        System.out.println("거듭제곱: " + math.square(2, (byte) 4)); //byte?
         System.out.println("절대값: " + math.absolute(-10));
         System.out.println("16진수 표현: " + math.toHex(15));
         System.out.println("2진수 표현: " + math.toBin(10));
         System.out.println("8진수 표현: " + math.toOct(8)); //8진수 헷갈림
-        System.out.println("문자열 '1234'의 10진수 변환: " + math.toDec("1234"));
+        System.out.println("문자열의 10진수 변환: " + math.toDec("1234"));
     }
 }
