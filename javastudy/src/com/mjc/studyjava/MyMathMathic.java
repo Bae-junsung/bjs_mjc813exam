@@ -24,7 +24,7 @@ public class MyMathMathic {
     public boolean same(String a, String b) {
         return a.equals(b); //두 문자열이 같으면 true 리턴, 아니면 false
     }
-    public boolean notsame(int a, int b) {
+    public boolean notSame(int a, int b) {
         return a != b; //두수가 다르면 true 리턴, 아니면 false
     }
     public boolean big(int a, int b) {
@@ -78,7 +78,7 @@ public class MyMathMathic {
         // 비교 연산
         System.out.println("같은 수인지: " + math.same(10, 5));
         System.out.println("같은 문자열인지: " + math.same("hello", "hi"));
-        System.out.println("다른 수인지: " + math.notsame(10, 5));
+        System.out.println("다른 수인지: " + math.notSame(10, 5));
         System.out.println("a가 b보다 큰가: " + math.big(10, 5));
         System.out.println("a가 b보다 작은가: " + math.small(3, 10));
 
