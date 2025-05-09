@@ -65,6 +65,43 @@ public class MyMathMathic {
     public int toDec(String a) {
         return Integer.parseInt(a, 10); //a 문자열을 10진수 정수로 리턴
     }
+    //계산기 업그레이드
+    public int avg(int [] array){
+        int result = 0;
+        for(int i = 0; i < array.length; i++){
+            result += array[i];
+        }
+        return result / array.length; // int 배열 array 의 평균값을 리턴한다.
+    }
+    public int sum(int [] array){
+        int result = 0;
+        for(int i = 0; i < array.length; i++){
+            result += array[i];
+        }
+        return result; //int 배열 array 의 총합계값을 리턴한다.
+    }
+    public int sumOfNumber(int [] array, int number){
+        int result = 0;
+        for(int i = 0; i < array.length; i++){
+            if(array[i] % number == 0){
+                result += array[i];
+            }
+        }
+        return result; // int 배열 array 의 원소중에서 n의 배수인 값의 총합계값을 리턴한다.
+    }
+    public int sumOfLoop(int a, int b){
+        int result = 0;
+        for(int i = a; i <= b; i++){
+            result += i;
+        }
+        return result; //a 부터 b 까지의 총합계값을 리턴한다. 루프제어를 사용한다.
+    }
+    public int sumOfFav(int a, int b){
+         if(a > b){
+             return 0;
+         }
+         return a + sumOfFav(a + 1, b); // a 부터 b 까지의 총합계값을 리턴한다. 재귀호출을 사용한다.
+    }
     public static void main(String[] args){
         MyMathMathic math = new MyMathMathic();
 
@@ -92,5 +129,12 @@ public class MyMathMathic {
         System.out.println("2진수 표현: " + math.toBin(10));
         System.out.println("8진수 표현: " + math.toOct(8)); //8진수 헷갈림
         System.out.println("문자열의 10진수 변환: " + math.toDec("1234"));
+
+        //계산기 업그레이드
+        System.out.println("배열의 평균: " + math.avg(new int[]{2, 4, 6, 8, 10}));
+        System.out.println("배열의 합: " + math.sum(new int[]{1, 2, 3, 4, 5, 6})); //배열 주의
+        System.out.println("배열 원소중 n의 배수만 더하기: " + math.sumOfNumber(new int[]{3, 8, 16, 25, 27}, 3));
+        System.out.println("loop a부터 b까지의 합: " + math.sumOfLoop(1, 6));
+        System.out.println("재귀 a부터 b까지의 합: " + math.sumOfFav(1,4));
     }
 }
