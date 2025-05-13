@@ -1,4 +1,6 @@
 package com.mjc.studyjava;
+import java.math.BigDecimal;
+import java.util.Random;
 
 public class MyMathMathic {
     //상술연산 하는 멤버메소드 5개 생성
@@ -67,6 +69,9 @@ public class MyMathMathic {
     }
     //계산기 업그레이드
     public int avg(int [] array){
+        if (array == null || array.length == 0) {
+            return 0; // array가 null이거나 길이가 0인 경우 0 리턴
+        }
         int result = 0;
         for(int i = 0; i < array.length; i++){
             result += array[i];
@@ -74,6 +79,9 @@ public class MyMathMathic {
         return result / array.length; // int 배열 array 의 평균값을 리턴한다.
     }
     public int sum(int [] array){
+        if (array == null || array.length == 0) {
+            return 0; // array가 null이거나 길이가 0인 경우 0 리턴
+        }
         int result = 0;
         for(int i = 0; i < array.length; i++){
             result += array[i];
@@ -81,6 +89,9 @@ public class MyMathMathic {
         return result; //int 배열 array 의 총합계값을 리턴한다.
     }
     public int sumOfNumber(int [] array, int number){
+        if (array == null || array.length == 0) {
+            return 0; // array가 null이거나 길이가 0인 경우 0 리턴
+        }
         int result = 0;
         for(int i = 0; i < array.length; i++){
             if(array[i] % number == 0){
@@ -102,6 +113,33 @@ public class MyMathMathic {
          }
          return a + sumOfFav(a + 1, b); // a 부터 b 까지의 총합계값을 리턴한다. 재귀호출을 사용한다.
     }
+    //5월 12일
+    public BigDecimal getBigDecimal(int n, int s){
+        if(n == 0 && s == 0){
+            return BigDecimal.ZERO;
+        }
+        String result = n + "." + s; //String??
+        return new BigDecimal(result); //new ?? 정수 n 값과 소수 s 값인 BigDecimal 데이터형을 리턴하세요
+    }
+    public Integer[] getIntegerArray(int[] array){
+        if (array == null || array.length == 0) {
+            return new Integer[0]; // array가 null이거나 길이가 0인 경우 0 리턴
+        }
+        Integer[] result = new Integer[array.length];
+        for(int i = 0; i < array.length; i++){
+            result[i] = array[i];
+        }
+        return result; //int[] 배열을 Integer[] 로 변환해서 리턴
+    }
+    public int[] makeRandomIntArray(int n){
+        Random rand = new Random();
+        int[] result = new int[n];
+        for(int i = 0; i < n; i++){
+            result[i] = rand.nextInt();
+        }
+        return result; // n 개의 랜덤한 int 값을 가지는 int[] 배열을 리턴
+    }
+
     public static void main(String[] args){
         MyMathMathic math = new MyMathMathic();
 
@@ -136,5 +174,11 @@ public class MyMathMathic {
         System.out.println("배열 원소중 n의 배수만 더하기: " + math.sumOfNumber(new int[]{3, 8, 16, 25, 27}, 3));
         System.out.println("loop a부터 b까지의 합: " + math.sumOfLoop(1, 6));
         System.out.println("재귀 a부터 b까지의 합: " + math.sumOfFav(1,4));
+
+        //5월 12일
+        System.out.println("소수형 타입: " + math.getBigDecimal(3, 14));
+        System.out.println("int 배열을 integer 배열로 변환: " + math.getIntegerArray(new int[]{1, 2, 3, 4}).toString());
+        System.out.println("n개의 랜덤한 int 값을 가지는 배열: " + math.makeRandomIntArray(3).toString());
+        System.out.println("text 문자열의 각 한 문자를 n 번째 배수 인덱스에 배치하는 랜덤 문자열: ");
     }
 }
