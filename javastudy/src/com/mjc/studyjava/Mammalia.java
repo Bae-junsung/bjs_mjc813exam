@@ -7,8 +7,12 @@ public class Mammalia extends Animal{
         super(name, age);
         this.food = food;
     }
-    public void feedingMilk(){
-        System.out.println(name + "은 " + "젖을 먹인다");
+    public void feedingMilk(Object feed) {
+        if (feed instanceof String) {
+            System.out.println(name + "은 " + "젖을 먹는다");
+        } else {
+            System.out.println("String 타입이어야 합니다.");
+        }
     }
 
     @Override
@@ -22,7 +26,8 @@ public class Mammalia extends Animal{
 
         mam.sleep();
         mam.move();
-        mam.feedingMilk();
+        mam.feedingMilk("기린");
+        mam.feedingMilk(123);
         mam.reproduce("새끼 기린");
     }
 }

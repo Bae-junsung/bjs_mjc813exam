@@ -11,8 +11,13 @@ public class Eagle extends Bird {
     }
 
     @Override
-    public void eat(Object feed){
-        System.out.println(name + "는 " + feed + "를 먹는다"); //{출력"{이름}은 {feed}를 먹는다"}
+    public void eat(Object feed) {
+        if (feed instanceof Animal) {  // *feed가 Animal 타입인지 확인*
+            Animal animalFeed = (Animal) feed; // feed를 Animal로 형변환
+            System.out.println(name + "는 " + animalFeed.getName() + "을 먹는다"); // 동물이름을 출력
+        } else {
+            System.out.println(name + "는 " + feed + "를 먹는다"); // 다른 경우에는 일반적인 출력
+        }
     }
 
     @Override
@@ -26,6 +31,7 @@ public class Eagle extends Bird {
 
         eagle.fly();
         eagle.eat("생쥐");
+        eagle.eat(new Animal("사슴", 4));
         eagle.reproduce("새끼 독수리");
     }
 }

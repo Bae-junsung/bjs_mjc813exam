@@ -12,8 +12,13 @@ public class Carnivore extends Mammalia{
     }
 
     @Override
-    public void eat(Object feed){
-        System.out.println(name + "는 " + feed + "를 먹는다"); //{출력"{이름}은 {feed}를 먹는다"}
+    public void eat(Object feed) {
+        if (feed instanceof Animal) {  // *feed가 Animal 타입인지 확인*
+            Animal animalFeed = (Animal) feed; // feed를 Animal로 형변환
+            System.out.println(name + "은 " + animalFeed.getName() + "를 먹는다"); // 동물이름을 출력
+        } else {
+            System.out.println(name + "은 " + feed + "를 먹는다"); // 다른 경우에는 일반적인 출력
+        }
     }
 
     public static void main(String[] args){
@@ -21,6 +26,7 @@ public class Carnivore extends Mammalia{
 
         c.move();
         c.eat("당나귀");
+        c.eat(new Animal("토끼", 3));
         c.reproduce("능소니");
     }
 }

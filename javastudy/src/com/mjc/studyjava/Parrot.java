@@ -11,8 +11,12 @@ public class Parrot extends Bird {
     }
 
     @Override
-    public void eat(Object feed){
-        System.out.println(name + "는 " + feed + "를 먹는다"); //{출력"{이름}은 {feed}를 먹는다"}
+    public void eat(Object feed) {
+        if (feed instanceof String) {
+            System.out.println(name + "는 " + feed + "를 먹는다");
+        } else {
+            System.out.println("feed는 String 타입이어야 합니다.");
+        }
     }
 
     @Override

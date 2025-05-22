@@ -21,6 +21,9 @@ public class Animal {
         System.out.println("새끼 이름은 " + newName);
         return new Animal(newName, 0); //*새끼는 나이 0으로 초기화??*
     }
+    public String getName() {
+        return name;
+    }
 
     public static void main(String[] args){
         Animal animal = new Animal("호랑이", 2);
