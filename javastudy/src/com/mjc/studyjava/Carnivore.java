@@ -17,7 +17,7 @@ public class Carnivore extends Mammalia{
             Animal animalFeed = (Animal) feed; // feed를 Animal로 형변환
             System.out.println(name + "은 " + animalFeed.getName() + "를 먹는다"); // 동물이름을 출력
         } else {
-            System.out.println(name + "은 " + feed + "를 먹는다"); // 다른 경우에는 일반적인 출력
+            System.out.println("feed는 Animal 타입이어야 합니다.");
         }
     }
 
