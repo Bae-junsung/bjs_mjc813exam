@@ -1,7 +1,7 @@
-package com.mjc813.mjc_library;
+package com.mjc.studyjava;
 
 public class MjcPoint {
-    public int marketPoint = 100;
+    public int marketPoint = 50;
 
     public int getMarketPoint() {
         return this.marketPoint; //Getter 대신
@@ -24,7 +24,7 @@ public class MjcPoint {
 
     public int subPoint(IMarketInfo info, int point) {
         if (info == null) {
-            System.out.println("addPoint(info, point) 호출 시에 info 가 null 이므로 실패했습니다.");
+            System.out.println("subPoint(info, point) 호출 시에 info 가 null 이므로 실패했습니다.");
             return this.marketPoint;
         }
         if (point >= 1 && point <= 20) {

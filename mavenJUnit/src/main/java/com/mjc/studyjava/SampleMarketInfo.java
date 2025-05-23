@@ -1,6 +1,4 @@
-package com.mjc813.mjc_library;
-
-import com.mjc813.mjc_library.IMarketInfo;
+package com.mjc.studyjava;
 
 public class SampleMarketInfo implements IMarketInfo {
 
