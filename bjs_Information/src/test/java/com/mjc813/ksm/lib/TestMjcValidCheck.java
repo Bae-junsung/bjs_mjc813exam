@@ -1,6 +1,5 @@
-package com.bjs;
+package com.mjc813.ksm.lib;
 
-import com.mjc813.ksm.lib.MjcValidCheck;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class TestMjcValidCheck {
