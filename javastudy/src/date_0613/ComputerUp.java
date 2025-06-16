@@ -1,5 +1,6 @@
 package date_0613;
 
+import com.mjc.studyjava.Computer;
 import com.mjc.studyjava.Mouse;
 
 import java.util.Comparator;
@@ -114,27 +115,34 @@ public class ComputerUp implements Comparable<ComputerUp>, Comparator<ComputerUp
         }
         return false;
     }
-
     @Override
     public String toString(){
-        return "\n이름: " + name +
-               "\nCPU: " + cpu +
-               "\nRAM: " + ram +
-               "\nStorage: " + storage +
-               "\nGraphic: " + graphicCard;
+        return ("Name: " + name +
+                "\nCPU: " + cpu +
+                "\nRAM: " + ram +
+                "\nSTORAGE: " +storage +
+                "\nGRAPHICCARD: " + graphicCard);
     }
 
     @Override
     public int compareTo(ComputerUp c) {
-        int result = this.cpu.compareTo(c.cpu);
-        if (result < 0) return -1;
-        else if (result == 0) return 0;
-        else return 1;
+        if (this.cpu == null && c.cpu == null) return 0;
+        if (this.cpu == null) return -1; // null은 non-null보다 작게 취급
+        if (c.cpu == null) return 1;
+        return Integer.signum(this.cpu.compareTo(c.cpu)); // 결과를 -1, 0, 1로 정규화??
     }
 
     @Override
-    public int compare(ComputerUp o1, ComputerUp o2) {
-        return 0;
+    public int compare(ComputerUp o1, ComputerUp o2) { //ram(Null해결 필수!!)
+        if (o1 == null && o2 == null) return 0;
+        if (o1 == null) return -1;
+        if (o2 == null) return 1;
+
+        if (o1.ram == null && o2.ram == null) return 0; //추가(?)
+        if (o1.ram == null) return -1;  // null은 더 작은 값으로 처리
+        if (o2.ram == null) return 1;
+
+        return Integer.compare(o1.ram, o2.ram);
     }
 
     public static void main(String[] args){
@@ -161,6 +169,15 @@ public class ComputerUp implements Comparable<ComputerUp>, Comparator<ComputerUp
 
         System.out.println("\nc1.equals(c2): " + c1.equals(c2));
         System.out.println("c1.equals(c3): " + c1.equals(c6));
-        System.out.println(c5.toString());
+        System.out.println(c2.toString());
+
+        // compareTo 테스트 (cpu 기준)
+        System.out.println("\nCompareTo: " + c.compareTo(c1));  // cpu 비교
+        System.out.println("CompareTo: " + c4.compareTo(c6));  // cpu 비교
+
+        // compare 테스트 (ram 기준)
+        System.out.println("\nCompare: " + c.compare(c2, c4));  // ram 비교
+        System.out.println("Compare: " + c.compare(c3, c5));  // ram 비교
+
     }
 }
