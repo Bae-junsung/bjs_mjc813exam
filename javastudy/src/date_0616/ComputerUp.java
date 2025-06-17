@@ -1,8 +1,12 @@
 package date_0616;
 
 import com.mjc.studyjava.Mouse;
-
+import java.util.*;
 import java.util.Comparator;
+import java.util.Map.Entry;
+import java.util.NavigableMap;
+import java.util.Set;
+import java.util.TreeMap;
 
 public class ComputerUp implements Comparable<ComputerUp>, Comparator<ComputerUp> {
     //필드 선언
@@ -178,5 +182,33 @@ public class ComputerUp implements Comparable<ComputerUp>, Comparator<ComputerUp
         System.out.println("\nCompare: " + c.compare(c2, c4));  // ram 비교
         System.out.println("Compare: " + c.compare(c3, c5));  // ram 비교
 
+        //HashSet 컬렉션 생성
+        Set<ComputerUp> set = new HashSet<ComputerUp>();
+        //객체 저장
+        set.add(c1);
+        set.add(c2);
+        set.add(c3);
+        set.add(c4);
+        set.add(c5);
+        set.add(c6);
+        //저장된 객체 수 출력
+        int size = set.size();
+        System.out.println("\n총 객체 수: " + size);
+        
+        //TreeMap 컬렉션 생성
+        TreeMap<ComputerUp, Integer> treeMap = new TreeMap<ComputerUp, Integer>();
+        //엔트리 저장
+        treeMap.put(c1,2);
+        treeMap.put(c3,8);
+        treeMap.put(c6,64);
+        treeMap.put(c4,16);
+        treeMap.put(c2,4);
+        treeMap.put(c5,32);
+        //정렬된 엔트리를 하나식 가져오기
+        Set<Entry<ComputerUp,Integer>> entrySet = treeMap.entrySet();
+        for(Entry<ComputerUp,Integer> entry : entrySet){
+            System.out.println("\n" + entry.getKey() + "\n" + entry.getValue()); //CPU 기준으로 정렬(겹치면 마지막꺼가 출력!!)
+        }
+        System.out.println();
     }
 }
