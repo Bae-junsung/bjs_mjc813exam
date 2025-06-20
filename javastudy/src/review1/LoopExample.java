@@ -1,4 +1,5 @@
 package review1;
+//switch문 여러개 묶고 싶으면 break 맨 마지막에!!(case1: case 2: case 3: break;->마지막에 써주기!)
 
 public class LoopExample {
     public static void main(String[] args){
