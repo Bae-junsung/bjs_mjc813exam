@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:32:39 +0900] "GET /HRD_homeshopping_idea HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:32:40 +0900] "GET /HRD_homeshopping_idea/ HTTP/1.1" 200 1464
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:32:40 +0900] "GET /HRD_homeshopping_idea/style.css?ver=1 HTTP/1.1" 200 1302
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:32:40 +0900] "GET /favicon.ico HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:32:42 +0900] "GET /HRD_homeshopping_idea/add HTTP/1.1" 200 2164
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:32:42 +0900] "GET /HRD_homeshopping_idea/script.js HTTP/1.1" 200 852
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:33:08 +0900] "GET /HRD_homeshopping_idea/add HTTP/1.1" 200 2164
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:33:09 +0900] "GET /HRD_homeshopping_idea HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:33:09 +0900] "GET /HRD_homeshopping_idea/ HTTP/1.1" 200 1464
+0:0:0:0:0:0:0:1 - - [07/Jul/2025:09:33:12 +0900] "GET /HRD_homeshopping_idea/list HTTP/1.1" 200 2771

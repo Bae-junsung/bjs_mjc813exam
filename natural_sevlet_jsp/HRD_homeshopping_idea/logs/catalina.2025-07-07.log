@@ -1,0 +1,102 @@
+07-Jul-2025 09:32:35.237 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/11.0.8
+07-Jul-2025 09:32:35.244 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 5 2025 17:49:55 UTC
+07-Jul-2025 09:32:35.244 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  11.0.8.0
+07-Jul-2025 09:32:35.244 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Jul-2025 09:32:35.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Jul-2025 09:32:35.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Jul-2025 09:32:35.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\App\java\OpenJDK21U-jdk_x64_windows_hotspot_21.0.6_7\jdk-21.0.6+7
+07-Jul-2025 09:32:35.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.6+7-LTS
+07-Jul-2025 09:32:35.246 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+07-Jul-2025 09:32:35.246 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea
+07-Jul-2025 09:32:35.246 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\App\apache-tomcat-11.0.8
+07-Jul-2025 09:32:35.263 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jul-2025 09:32:35.264 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jul-2025 09:32:35.264 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jul-2025 09:32:35.264 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jul-2025 09:32:35.264 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jul-2025 09:32:35.264 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:61104,suspend=y,server=n
+07-Jul-2025 09:32:35.264 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\App\apache-tomcat-11.0.8
+07-Jul-2025 09:32:35.264 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea
+07-Jul-2025 09:32:35.265 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea\temp
+07-Jul-2025 09:32:35.265 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea\conf\logging.properties
+07-Jul-2025 09:32:35.265 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jul-2025 09:32:35.265 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Users\MJC\AppData\Local\JetBrains\IdeaIC2024.3\captureAgent\debugger-agent.jar
+07-Jul-2025 09:32:35.266 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+07-Jul-2025 09:32:35.266 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Ddebugger.agent.enable.coroutines=true
+07-Jul-2025 09:32:35.266 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+07-Jul-2025 09:32:35.266 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+07-Jul-2025 09:32:35.267 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+07-Jul-2025 09:32:35.267 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+07-Jul-2025 09:32:35.267 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+07-Jul-2025 09:32:35.301 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.6]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.9]을(를) 로드했습니다.
+07-Jul-2025 09:32:35.307 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.5.0 8 Apr 2025]
+07-Jul-2025 09:32:35.648 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+07-Jul-2025 09:32:35.676 정보 [main] org.apache.catalina.startup.Catalina.load [760] 밀리초 내에 서버가 초기화되었습니다.
+07-Jul-2025 09:32:35.733 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Jul-2025 09:32:35.734 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/11.0.8]
+07-Jul-2025 09:32:35.746 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea\conf\Catalina\localhost\HRD_homeshopping_idea.xml]을(를) 배치합니다.
+07-Jul-2025 09:32:37.170 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jul-2025 09:32:37.239 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea\conf\Catalina\localhost\HRD_homeshopping_idea.xml]의 배치가 [1,489] 밀리초 내에 완료되었습니다.
+07-Jul-2025 09:32:37.247 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+07-Jul-2025 09:32:37.290 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1612] 밀리초 내에 시작되었습니다.
+07-Jul-2025 09:32:48.783 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+07-Jul-2025 09:32:48.790 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Jul-2025 09:32:48.937 경고 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [HRD_homeshopping_idea]이(가) JDBC 드라이버 [oracle.jdbc.OracleDriver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+07-Jul-2025 09:32:48.938 경고 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads 웹 애플리케이션 [HRD_homeshopping_idea]이(가) [oracle.jdbc.diagnostics.Diagnostic.CLOCK](이)라는 이름의 쓰레드를 시작시킨 것으로 보이지만, 해당 쓰레드를 중지시키지 못했습니다. 이는 메모리 누수를 유발할 가능성이 큽니다. 해당 쓰레드의 스택 트레이스:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+07-Jul-2025 09:32:48.952 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+07-Jul-2025 09:32:48.960 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+07-Jul-2025 09:33:04.543 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/11.0.8
+07-Jul-2025 09:33:04.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 5 2025 17:49:55 UTC
+07-Jul-2025 09:33:04.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  11.0.8.0
+07-Jul-2025 09:33:04.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Jul-2025 09:33:04.551 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Jul-2025 09:33:04.551 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Jul-2025 09:33:04.551 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\App\java\OpenJDK21U-jdk_x64_windows_hotspot_21.0.6_7\jdk-21.0.6+7
+07-Jul-2025 09:33:04.551 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.6+7-LTS
+07-Jul-2025 09:33:04.552 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+07-Jul-2025 09:33:04.552 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea
+07-Jul-2025 09:33:04.552 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\App\apache-tomcat-11.0.8
+07-Jul-2025 09:33:04.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jul-2025 09:33:04.564 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jul-2025 09:33:04.564 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jul-2025 09:33:04.564 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jul-2025 09:33:04.564 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jul-2025 09:33:04.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:61125,suspend=y,server=n
+07-Jul-2025 09:33:04.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\App\apache-tomcat-11.0.8
+07-Jul-2025 09:33:04.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea
+07-Jul-2025 09:33:04.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea\temp
+07-Jul-2025 09:33:04.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea\conf\logging.properties
+07-Jul-2025 09:33:04.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jul-2025 09:33:04.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Users\MJC\AppData\Local\JetBrains\IdeaIC2024.3\captureAgent\debugger-agent.jar
+07-Jul-2025 09:33:04.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+07-Jul-2025 09:33:04.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Ddebugger.agent.enable.coroutines=true
+07-Jul-2025 09:33:04.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+07-Jul-2025 09:33:04.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+07-Jul-2025 09:33:04.567 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+07-Jul-2025 09:33:04.567 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+07-Jul-2025 09:33:04.567 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+07-Jul-2025 09:33:04.569 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.6]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.9]을(를) 로드했습니다.
+07-Jul-2025 09:33:04.575 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.5.0 8 Apr 2025]
+07-Jul-2025 09:33:04.946 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+07-Jul-2025 09:33:04.974 정보 [main] org.apache.catalina.startup.Catalina.load [818] 밀리초 내에 서버가 초기화되었습니다.
+07-Jul-2025 09:33:05.033 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Jul-2025 09:33:05.034 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/11.0.8]
+07-Jul-2025 09:33:05.048 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea\conf\Catalina\localhost\HRD_homeshopping_idea.xml]을(를) 배치합니다.
+07-Jul-2025 09:33:06.336 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jul-2025 09:33:06.403 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\bjs813\bjs_mjc813exam\natural_sevlet_jsp\HRD_homeshopping_idea\conf\Catalina\localhost\HRD_homeshopping_idea.xml]의 배치가 [1,351] 밀리초 내에 완료되었습니다.
+07-Jul-2025 09:33:06.411 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+07-Jul-2025 09:33:06.443 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1468] 밀리초 내에 시작되었습니다.
+07-Jul-2025 09:33:18.214 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+07-Jul-2025 09:33:18.219 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Jul-2025 09:33:18.370 경고 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [HRD_homeshopping_idea]이(가) JDBC 드라이버 [oracle.jdbc.OracleDriver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+07-Jul-2025 09:33:18.371 경고 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads 웹 애플리케이션 [HRD_homeshopping_idea]이(가) [oracle.jdbc.diagnostics.Diagnostic.CLOCK](이)라는 이름의 쓰레드를 시작시킨 것으로 보이지만, 해당 쓰레드를 중지시키지 못했습니다. 이는 메모리 누수를 유발할 가능성이 큽니다. 해당 쓰레드의 스택 트레이스:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+07-Jul-2025 09:33:18.378 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+07-Jul-2025 09:33:18.384 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="D:/bjs813/bjs_mjc813exam/natural_sevlet_jsp/HRD_homeshopping_idea/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="D:/bjs813/bjs_mjc813exam/natural_sevlet_jsp/HRD_homeshopping_idea/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/MJC/.m2/repository/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-8.2.0.jar"/>
+    <PostResources base="C:/Users/MJC/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.21.9.jar"/>
+    <PostResources base="C:/Users/MJC/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.2.0.0/ojdbc11-23.2.0.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/ojdbc11-23.2.0.0.jar"/>
+  </Resources>
+</Context>
